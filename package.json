@@ -1,0 +1,25 @@
+{
+  "name": "slack-uptime-bot",
+  "version": "1.0.0",
+  "description": "A slack bot that returns the status for servers monitored usng Uptime Robot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "status",
+    "uptime",
+    "servers",
+    "uptime robot"
+  ],
+  "author": "Riyadh Al Nur <riyadhalnur@verticalaxisbd.com> (http://www.verticalaxisbd.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "request": "^2.61.0",
+    "slackbots": "^0.4.0"
+  },
+  "devDependencies": {}
+}
